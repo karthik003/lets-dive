@@ -24,7 +24,7 @@ function Main() {
 
 
       console.log(location.state)
-    const newSocket = io(`https://richpanel-fb-be.herokuapp.com/`);
+    const newSocket = io(`https://lets-dive-be.herokuapp.com/`);
     setSocket(newSocket);
     return () => newSocket.close();
   }, [setSocket]);
