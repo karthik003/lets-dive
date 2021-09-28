@@ -1,0 +1,24 @@
+form {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+
+    /* max-width: 500px; */
+    /* width: 50%; */
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    margin: 5% auto;
+    margin-left: 3%; 
+    left: 10;
+    right: 10;
+    top:83vh;
+    border: 1px solid black;
+  }

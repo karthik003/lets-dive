@@ -1,0 +1,16 @@
+.icon{
+    text-align: center;
+    position: relative;
+    left:5px
+    /* cursor: pointer; */
+}
+.icon:focus {
+    text-align: center;
+    background-color: white;
+  }
+.user-icon{
+    position: relative;
+    top: 50vh;
+    text-align: center;
+    left:5px
+}
